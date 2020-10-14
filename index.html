@@ -43,6 +43,8 @@
         
         <link rel="stylesheet" type="text/css" href="css/mystyle.css">
         
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        
     
     </head>
 
@@ -370,13 +372,61 @@
                 <h1 id="contact-h1"><b>Message me</b></h1>
                 <div id="contact-span"></div>
                 <br>
-                <input id="contact-name" type="text" placeholder="Name">
-                <input id="contact-email" type="email" placeholder="Email">
-                <input id="contact-tel" type="tel" placeholder="Phone (optional)">
-                <input id="contact-subject" type="text" placeholder="Subject">
-                <textarea id="contact-textarea" placeholder="Type your text here"></textarea>
-                <button type="submit" id="contact-submit">Submit</button>
                 
+                <div ng-app="emailApp" ng-controller="EmailCtrl" class="container">
+                    <div>
+                      <input style="display: none"
+                             value="erik.hellrung@web.de"
+                             id="contact-name" 
+                             type="text"
+                             ng-model="email.to"
+                             placeholder="To"
+                             ng-change="generateEmailLink(email)"  />
+                    </div>
+                    <div>
+                      <input id="contact-email" 
+                             type="text"
+                             ng-model="email.extra.subject"
+                             placeholder="Subject"
+                             ng-change="generateEmailLink(email)" />
+                    </div>
+                    <div>
+                      <input id="contact-tel"
+                             type="text"
+                             ng-model="email.extra.cc"
+                             placeholder="CC"
+                             ng-change="generateEmailLink(email)" />
+                    </div>
+                    <div>
+                      <input id="contact-subject"
+                             type="text"
+                             ng-model="email.extra.bcc"
+                             placeholder="BCC"
+                             ng-change="generateEmailLink(email)" />
+                    </div>
+                    <div>
+                      <textarea id="contact-textarea" 
+                                ng-model="email.extra.body"
+                                ng-change="generateEmailLink(email)"
+                                placeholder="Say something"
+                                rows="4">
+                      </textarea>
+                    </div>
+                  <pre style="display: none">{{ link }}</pre>
+                  <a ng-href="{{ link }}" target="_blank"><button type="submit" id="contact-submit">Send E-Mail</button></a>
+
+                    <pre></pre>
+
+                  
+                    
+                
+
+                </div>
+                
+                
+                
+                
+
             </div>
         </div>
         
@@ -534,10 +584,7 @@
                 center:true,
                 dots:true,
                 lazyLoad:false,
-                autoplay:false,
-                autoplayTimeout:5000,
-                smartSpeed: 2500,
-                autoplayHoverPause:true,
+                smartSpeed: 1000,
                 items:1,
                 responsive:{
                     0:{
@@ -552,6 +599,36 @@
                 }
             });
             
+            
+            function EmailCtrl ($scope, $window) {
+              $scope.email = {
+                to: '',
+                extra: {}
+              };
+              $scope.link = emailToLink($scope.email);
+              function emailToLink (email) {
+                var extra = [];
+                var link = 'mailto:erik.hellrung@web.de';
+                for (var key in email.extra) {
+                  var value = email.extra[key];
+                  if (value) {
+                    extra.push(key + '=' + $window.encodeURIComponent(email.extra[key]));
+                  }
+                }
+                if (extra.length > 0) {
+                  link += '?' + extra.join('&');
+                }
+                return link;
+              }
+              $scope.generateEmailLink = function (email) {
+                $scope.link = emailToLink(email);
+              }
+            }
+
+            angular
+              .module('emailApp', [
+              ])
+              .controller('EmailCtrl', EmailCtrl);
             
            
         </script>
