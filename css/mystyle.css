@@ -216,6 +216,15 @@ li .btn-down {
     background-color: #4dacff;
 }
 
+.btn-white {
+    border-color: white;
+    background-color: #4dacff;
+    color: white;
+    margin-left: 18px;
+    margin-top: -5px;
+}
+
+
 .container-l, .container-xl, .container-m, .container-s {
     width: 400px;
     height: 500px;
@@ -766,7 +775,7 @@ time {
     height: 3200px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: baseline;
     padding-top: 30px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -826,10 +835,10 @@ time {
 }
 
 #benchmark {
-    width: 100%;
+    width: 97%;
     height: auto;
     order: 5;
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     box-shadow: 0px 0px 0px 1px rgba(209,209,209,1);
 }
 
@@ -857,13 +866,14 @@ time {
 }
 
 #tabusearch {
-    width: 100%;
+    width: 97%;
     height: auto;
     order: 8;
     margin-top: 10px;
     margin: 10px;
     padding: 10px;
     box-shadow: 0px 0px 0px 1px rgba(209,209,209,1);
+    background-color: white;
 }
 
 #th-5 {
