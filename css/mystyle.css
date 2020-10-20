@@ -10,10 +10,10 @@ body {
     color: black;
     font-family: 'Montserrat', sans-serif;
     
-    /*
-    background-image: url("../images/brandi-redd-aJTiW00qqtI-unsplash.jpg");
-    background-size: contain;
-    */
+    
+    background-image: url("../images/b3.jpg");
+    background-size: 100% 100%;
+    
 
 }
 
@@ -626,13 +626,13 @@ time {
 
 
 #bild1 {
-    background-image: url(../images/goldbeck-pic.jpg);
+    background-image: url(../images/goldbeck-pic2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #bild2 {
-    background-image: url(../images/tud.jpg);
+    background-image: url(../images/tud2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -644,19 +644,19 @@ time {
 }
 
 #bild4 {
-    background-image: url(../images/blank.jpg);
+    background-image: url(../images/blank2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #bild5 {
-    background-image: url(../images/bundestag.jpg);
+    background-image: url(../images/bundestag2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #bild6 {
-    background-image: url(../images/populism.jpg);
+    background-image: url(../images/populism2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -843,6 +843,7 @@ time {
     order: 5;
     margin: 10px 10px 10px 10px;
     box-shadow: 0px 0px 0px 1px rgba(209,209,209,1);
+    
 }
 
 #th-3 {
@@ -874,9 +875,7 @@ time {
     order: 8;
     margin-top: 10px;
     margin: 10px;
-    padding: 10px;
     box-shadow: 0px 0px 0px 1px rgba(209,209,209,1);
-    background-color: white;
 }
 
 #th-5 {
