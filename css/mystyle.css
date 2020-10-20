@@ -9,9 +9,11 @@ body {
     background-color: white;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    background-image: url("../images/test2.svg");
+    
+    /*
+    background-image: url("../images/brandi-redd-aJTiW00qqtI-unsplash.jpg");
     background-size: contain;
-
+    */
 
 }
 
@@ -742,32 +744,33 @@ time {
 
 .owl-dots {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 /*
 .owl-dot {
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
+    margin: 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #4dacff!important;
+    border: 0px none #4dacff!important;
     transition: all 0.3s ease;
-}
+    background-color: red !important;
+}*/
 
-
+/*
 .owl-dot.active {
-    width: 35px;
-    border-radius: 14px;
-}
+    color: red !important;
+    background-color: red !important;
+    border-radius: 50%;
+}*/
 
+/*
 .owl-dot.active,
 .owl-dot:hover {
     background: #4dacff!important;
     border-radius: 50%;
-}
-*/
+}*/
+
 
 #hintergrund3-1 {
     background-size: cover;
@@ -798,16 +801,16 @@ time {
     width: 820px;
     margin: 10px;
     height: 100px;
-    padding-top: 5px;
+    padding: 15px 10px 10px 10px;
     box-shadow: none;
 }
 
 #heuristik {
     order: 2;
-    width: 100%;
+    width: 97%;
     height: auto;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     background-color: white;
 }
 
@@ -825,7 +828,7 @@ time {
     width: 820px;
     margin: 10px;
     height: 90px;
-    padding-top: 5px;
+    padding: 15px 10px 10px 10px;
     box-shadow: none;
 }
 
@@ -856,7 +859,7 @@ time {
     width: 820px;
     margin: 10px;
     height: 90px;
-    padding-top: 5px;
+    padding: 15px 10px 10px 10px;
     box-shadow: none;
 }
 
