@@ -332,7 +332,7 @@ li .btn-down {
     border-radius: 50%;
     margin: auto;
     position: relative;
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -357,7 +357,7 @@ li .btn-down {
     background-color: #0074D9;
     position: absolute;
     margin-top: 60px;
-    margin-left: -195px;
+    margin-left: -140px;
 }
 
 
@@ -940,11 +940,17 @@ time {
 }
 
 .zitat {
-    margin-top: 40px;
+    margin-top: -15px;
+    margin-bottom: 0px;
 }
 
 .contactform {
-    margin-top: 40px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.contactform2 {
+    margin-top: 10px;
     text-align: justify;
 }
 
@@ -1245,7 +1251,7 @@ a:link, a:visited {
     }
 
     #h1-text:after {
-        margin-left: -195px;
+        margin-left: -140px;
     }
 }
 
@@ -1574,7 +1580,7 @@ a:link, a:visited {
     }
 
     #h1-text:after {
-        margin-left: -90px;
+        margin-left: -155px;
     }
 
 
