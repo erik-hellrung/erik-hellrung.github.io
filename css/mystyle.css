@@ -604,7 +604,6 @@ time {
     width: 800px;
     background-color: #4dacff;
     display: relative;
-
 }
 
 /*Inhalte*/
@@ -657,6 +656,12 @@ time {
 
 #bild6 {
     background-image: url(../images/populism2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bild7 {
+    background-image: url(../images/eisenbahn.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1289,7 +1294,6 @@ a:link, a:visited {
         width: 100%;
         float: none;
         background-color: none;
-
     }
 
     .owl-pic {
