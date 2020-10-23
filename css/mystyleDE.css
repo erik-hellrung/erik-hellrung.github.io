@@ -430,7 +430,7 @@ https://codepen.io/Miriali/pen/JjGOJwY
 */
 
 #res-eng {
-    height: 300px; /*media querie!!*/
+    height: 300px;
 }
 
 #res-down {
@@ -1250,6 +1250,7 @@ a:link, a:visited {
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
 }
 
 @media only screen and (max-width: 880px) {
@@ -1516,8 +1517,10 @@ a:link, a:visited {
     }
 
     #hintergrund5 {
-        height: 80px;
-        line-height: 25px;
+        align-items: flex-start;
+        height: 12%;
+        padding: 10px;
+        
     }
     
     #th-2-2 {
@@ -1547,6 +1550,10 @@ a:link, a:visited {
     #hintergrund3-1 p {
         font-size: 18px;
         
+    }
+    
+    #button1 {
+        margin-top: -20px;
     }
 
 }
