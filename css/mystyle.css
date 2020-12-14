@@ -664,6 +664,12 @@ time {
     background-position: center;
 }
 
+#bild8 {
+    background-image: url(../images/logistic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .weißebox {
     width: 300px;
     height: 60px;
