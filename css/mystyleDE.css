@@ -1143,6 +1143,11 @@ a:link, a:visited {
     100% {transform: scale(1.1)}                           
 }*/
 
+.pulsen {
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
 
 
 .wackeln {
