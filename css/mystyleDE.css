@@ -371,7 +371,7 @@ li .btn-down {
 #hintergrund2 {
     background-size: cover;
     width: 820px;
-    height: 3500px;
+    height: 3900px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -438,7 +438,7 @@ https://codepen.io/Miriali/pen/JjGOJwY
 }
 
 #res-tl-ed {
-    height: 1100px;
+    height: 1350px;
 }
 
 #res-tl-work {
@@ -666,6 +666,12 @@ time {
 
 #bild8 {
     background-image: url(../images/logistic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bild9 {
+    background-image: url(../images/aalto.jpg);
     background-size: cover;
     background-position: center;
 }
