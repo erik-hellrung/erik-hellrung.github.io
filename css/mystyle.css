@@ -814,7 +814,7 @@ time {
 #hintergrund3-2 {
     background-size: cover;
     width: 820px;
-    height: 3200px;
+    height: 2350px;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -853,10 +853,39 @@ time {
     background-color: white;
 }
 
+#heuristik2 {
+    order: 2;
+    width: 97%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px #0074D9;
+}
+
+.heuristik3 {
+    order: 2;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    
+}
+
 #th-2 {
     order: 3;
     width: 820px;
     height: 600px;
+    margin: 10px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 0px 1px #0074D9;
+}
+
+#th-7 {
+    order: 3;
+    width: 820px;
+    height: 1300px;
     margin: 10px;
     padding-top: 5px;
     box-shadow: 0px 0px 0px 1px #0074D9;
