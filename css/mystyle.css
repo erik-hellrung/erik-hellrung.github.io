@@ -799,8 +799,6 @@ time {
     flex-direction: row;
     overflow:hidden;
     margin-bottom: 100px;
-    transition-delay: 2s;
-    transition-duration: 2s;
 }
 
 #hintergrund3-1 p {
