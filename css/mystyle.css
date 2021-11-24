@@ -1402,9 +1402,7 @@ a:link, a:visited {
 
     }
 
-    #res-eng {
-    height: 350px;
-    }
+    
     
 }
 
@@ -1470,6 +1468,10 @@ a:link, a:visited {
 
     .timeline ul li::after {
     display: none;
+    }
+    
+    #res-eng {
+    height: 450px;
     }
 
 }

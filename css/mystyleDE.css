@@ -811,6 +811,32 @@ time {
     padding-left: 10px;
 }
 
+#hintergrund3-2 {
+    background-size: cover;
+    width: 820px;
+    height: 2350px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow:hidden;
+    margin-bottom: 100px;
+}
+
+#hintergrund3-2 p {
+    text-align: justify;
+    margin-top: 0px;
+}
+
+#hintergrund3-2 h2 {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+
+
 #th-1 {
     order: 1;
     width: 820px;
@@ -827,6 +853,26 @@ time {
     margin: 0px;
     padding: 0px;
     background-color: white;
+}
+
+#heuristik2 {
+    order: 2;
+    width: 97%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px #0074D9;
+}
+
+.heuristik3 {
+    order: 2;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    
 }
 
 #th-2 {
@@ -850,6 +896,15 @@ time {
 #th-2-2 h2 {
     margin-left: 0px;
     margin-top: 10px;
+}
+
+#th-7 {
+    order: 3;
+    width: 820px;
+    height: 1300px;
+    margin: 10px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 0px 1px #0074D9;
 }
 
 #benchmark {
@@ -929,6 +984,8 @@ time {
     width: 200px;
     float: left;
 }
+
+
 
 
 
@@ -1319,7 +1376,7 @@ a:link, a:visited {
 
     .owl-innerbox {
         width: 90%;
-        height: 250px;
+        height: 280px;
         display: block;
         float: none;
         margin: auto;
@@ -1351,15 +1408,23 @@ a:link, a:visited {
         height: 330px;
     }
     
-    #hintergrund3-1 {
-        
+    #hintergrund3-2 {
+        height: 2500px;
+    }
+    
+    #th-7 {
+        height: 1400px;
     }
 }
 
 @media only screen and (max-width: 750px) {
     #hintergrund2 {
-        height: 4200px;
+        height: 4500px;
 
+    }
+    
+    #hintergrund3-2{
+        height: 2500px;
     }
 
     #res-eng {
@@ -1379,6 +1444,10 @@ a:link, a:visited {
     
     #th-5 {
         height: 400px;
+    }
+    
+    #th-6 {
+        height: 200px;
     }
     
 
@@ -1429,6 +1498,11 @@ a:link, a:visited {
     .timeline ul li::after {
     display: none;
     }
+    
+    #th-7 {
+        height: 1550px;
+    }
+
 
 }
 
@@ -1468,7 +1542,7 @@ a:link, a:visited {
     }
 
     #hintergrund2 {
-        height: 4400px;
+        height: 4600px;
     }
 
     .owl-innerbox {
@@ -1558,7 +1632,11 @@ a:link, a:visited {
     }
     
     #th-6 {
-        height: 210px;
+        height: 270px;
+    }
+    
+    #th-7 {
+        height: 1800px;
     }
     
     #hintergrund3-1 {
@@ -1570,15 +1648,23 @@ a:link, a:visited {
         
     }
     
+    #hintergrund3-2 {
+        height: 2800px;
+    }
+    
     #button1 {
         margin-top: -20px;
+    }
+    
+    #th-6 {
+        height: 280px;
     }
 
 }
 
 
 /**very old small smartphone***/
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 360px) {
     #hintergrund2 {
         height: 4620px;
     }
@@ -1599,5 +1685,14 @@ a:link, a:visited {
         margin-left: 10px;
         margin-right: 15px;
     }
+    
+    #th-7 {
+        height: 2000px;
+    }
+    
+    #hintergrund3-2 {
+        height: 3000px;
+    }
+    
 
 }
