@@ -371,7 +371,7 @@ li .btn-down {
 #hintergrund2 {
     background-size: cover;
     width: 820px;
-    height: 3900px;
+    height: 4000px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -442,7 +442,7 @@ https://codepen.io/Miriali/pen/JjGOJwY
 }
 
 #res-tl-work {
-    height: 920px;
+    height: 1150px;
 }
 
 time {
@@ -621,6 +621,11 @@ time {
     */
 }
 
+#bild1-1 {
+    background-image: url(../images/ap2.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 #bild1 {
     background-image: url(../images/goldbeck-pic2.jpg);
@@ -814,7 +819,7 @@ time {
 #hintergrund3-2 {
     background-size: cover;
     width: 820px;
-    height: 2350px;
+    height: 2500px;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -885,7 +890,7 @@ time {
 #th-7 {
     order: 3;
     width: 820px;
-    height: 1300px;
+    height: 1500px;
     margin: 10px;
     padding-top: 5px;
     box-shadow: 0px 0px 0px 1px #0074D9;
@@ -1398,7 +1403,7 @@ a:link, a:visited {
 
 @media only screen and (max-width: 750px) {
     #hintergrund2 {
-        height: 4500px;
+        height: 4600px;
 
     }
 
@@ -1473,6 +1478,10 @@ a:link, a:visited {
     #res-eng {
     height: 450px;
     }
+    
+    #hintergrund2 {
+    height: 4800px;
+    }
 
 }
 
@@ -1517,7 +1526,7 @@ a:link, a:visited {
     }
 
     #hintergrund2 {
-        height: 4600px;
+        height: 4800px;
     }
 
     .owl-innerbox {
@@ -1567,7 +1576,7 @@ a:link, a:visited {
     }
 
     #hintergrund2 {
-        height: 4900px;
+        height: 5000px;
         margin-right: 0px;
     }
 
@@ -1576,7 +1585,7 @@ a:link, a:visited {
     }
 
     #res-tl-work {
-        height: 950px;
+        height: 1100px;
     }
 
     #hintergrund4 table {
@@ -1609,7 +1618,7 @@ a:link, a:visited {
     }
     
     #th-7 {
-        height: 1500px;
+        height: 1580px;
     }
     
     #hintergrund3-1 {
@@ -1632,7 +1641,7 @@ a:link, a:visited {
 /**very old small smartphone***/
 @media only screen and (max-width: 325px) {
     #hintergrund2 {
-        height: 4620px;
+        height: 4800px;
     }
 
     #res-edv {
@@ -1653,7 +1662,7 @@ a:link, a:visited {
     }
     
     #th-7 {
-        height: 1800px;
+        height: 1850px;
     }
     
     #hintergrund3-2 {
