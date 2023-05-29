@@ -430,12 +430,14 @@ https://codepen.io/Miriali/pen/JjGOJwY
 */
 
 #res-eng {
-    height: 300px; /*media querie!!*/
+    height: 300px; 
 }
 
+/*
 #res-down {
     height:260px;
 }
+*/
 
 #res-tl-ed {
     height: 1350px;
@@ -536,29 +538,29 @@ time {
 
 
 #res-facts {
-    order: 1;
-}
-#res-lang {
-    order: 2;
-}
-#res-edv {
     order: 3;
 }
-#res-prolang {
+#res-lang {
     order: 4;
 }
-#res-eng {
+#res-edv {
     order: 5;
 }
-#res-tl-ed {
+#res-prolang {
     order: 6;
 }
+#res-eng {
+    order: 8;
+}
+#res-tl-ed {
+    order: 2;
+}
 #res-tl-work {
-    order: 7;
+    order: 1;
 }
 
 #res-down {
-    order:8;
+    order:7;
 }
 
 
@@ -1406,6 +1408,8 @@ a:link, a:visited {
         height: 4600px;
 
     }
+    
+    
 
     
     
@@ -1425,6 +1429,9 @@ a:link, a:visited {
     }
     #th-6 {
         height: 200px;
+    }
+    #res-eng {
+    height: 500px;
     }
     
 }
@@ -1475,9 +1482,7 @@ a:link, a:visited {
     display: none;
     }
     
-    #res-eng {
-    height: 450px;
-    }
+    
     
     #hintergrund2 {
     height: 4800px;
@@ -1522,7 +1527,7 @@ a:link, a:visited {
     }
 
     #res-eng {
-    height: 500px;
+    height: 600px;
     }
 
     #hintergrund2 {
@@ -1649,7 +1654,7 @@ a:link, a:visited {
     }
 
     #res-eng {
-        height: 570px;
+        height: 700px;
     }
 
     .dropbtn {
